@@ -1,37 +1,66 @@
-# vue-user-map
+# ums
 
-#### 介绍
-vue构建零售店店铺地图位置
+> 基于 vue-cli3 用户管理系统
 
-#### 软件架构
-软件架构说明
+## 演示
 
+![ums](注册.gif)
+![ums](登录.gif)
+![ums](增删地址.gif)
 
-#### 安装教程
+## 目录结构
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+```bash
+|__ public                                    # 本地代理
+    |__ favicon.ico                               # 图标
+    |__ index.html                                # 主页面
+|__ src
+    |__ App.vue                               # 入口文件
+    |__ main.js                               # 入口js
+    |__ components                            # 组件
+      |__ Loading.vue                           # 加载层
+    |__ page
+      |__ Home                                # 首页
+        |__ Home.vue
+      |__ Login                               # 登录页
+        |__ Login.vue
+      |__ Register                            # 注册页
+        |__ Register.vue
+      |__ User                              
+        |__ Address  
+            |__ Register.vue                  # 增加地址
+            |__ Register.vue                  # 删除地址
+    |__ router                                 # router
+      |__ index.js                              # 路由
+    |__ store                                 # vuex
+      |__ index.js                              # 全局
+      |__ modules                               # 模块
+        |__ app.js                                  # 加载
+        |__ user.js                                 # 用户
+      |__ mutations-type.js                     # mutations 常量
+    |__ fetch                                 # 请求
+      |__ api.js                                # api接口类
+      |__ request.js                            # axios请求封装
+|__ assets                                    # 静态资源
+    |__ font                                    # 字体
+    |__ images                                  # 图片
+    |__ sass                                    # 样式
+```
 
-#### 使用说明
+## 构建
+``` bash
+# 安装依赖
+npm install
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+# 开发
+npm run dev
 
-#### 参与贡献
+# 生产
+npm run build
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+# 代码检查
+npm run lint
+```
 
-
-#### 码云特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
