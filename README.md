@@ -3,18 +3,18 @@
 
 > vue构建零售店店铺地图位置，接入vue-Baidu-Map百度地图api
 
-## 演示
+## 预览
 
-- 客户关系管理
+### 客户关系管理
 ![vue-user-map](/screenshot/1.png)
 
-- 客户关系详情
+### 客户关系详情
 ![vue-user-map](/screenshot/2.png)
 
-- 店铺地图管理
+### 店铺地图管理
 ![vue-user-map](/screenshot/3.png)
 
-- 预览
+## 演示
 ![vue-user-map](/screenshot/4.gif)
 
 ## 目录结构
