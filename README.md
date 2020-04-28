@@ -1,4 +1,5 @@
 # vue-user-map
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 > vue构建零售店店铺地图位置，接入vue-Baidu-Map百度地图api
 
